@@ -17,7 +17,7 @@ test('get started link', async ({ page }) => {
   await expect(page.getByRole('heading', { name: 'Installation' })).toBeVisible();
 }); //Test
 
-test('get started link2', async ({ page }) => {
+test('get started link new for Test', async ({ page }) => {
   await page.goto('https://playwright.dev/');
 
   // Click the get started link.
